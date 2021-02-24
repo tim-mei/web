@@ -1,23 +1,45 @@
 body {
-	background-color: #6BA2E9; 
+	background-color: #f8f1f1; 
 }
- 
-
+	
 p {
 	font: italic small-caps bold 16px/2 cursive;
+	color: #a3d2ca;
 }
 	
 h2 {
 	border: solid gold;
 	font-family: "Fira Sans"; 
-	font-size: 12
+	font-size: 12;
 }  
 
 img { 
-	width: 300px; 
-	border: 2px solid firebrick
+	border: 2px solid firebrick;
+	max-height: 700px;
+	max-width: 550px;
+}
+li { 
+    font-family: "Fira Sans"; 
+    font-size: 24;
 } 
 
-li { font-weight: lighter 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 } 
-	
+
+figcaption {
+	font-style: italic; 
+	text-align: center; 
+	padding: 2px;
+} 
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper > div {
+    flex: 1;
+}
