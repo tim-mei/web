@@ -7,10 +7,9 @@ p {
 	color: #a3d2ca;
 }
 	
-h2 {
-	border: solid gold;
-	font-family: "Fira Sans"; 
-	font-size: 12;
+h1 {
+	font-family: cursive; 
+	font-size: 18;
 }  
 
 img { 
@@ -18,9 +17,9 @@ img {
 	max-height: 700px;
 	max-width: 550px;
 }
-li { 
-    font-family: "Fira Sans"; 
-    font-size: 24;
+div { 
+    font-family: cursive; 
+    font-size: 36px; 
 } 
 
 .center {
@@ -33,7 +32,7 @@ li {
 figcaption {
 	font-style: italic; 
 	text-align: center; 
-	padding: 2px;
+	padding: 4px;
 } 
 
 .wrapper {
