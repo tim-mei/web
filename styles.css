@@ -4,7 +4,7 @@ body {
 	
 p {
 	font: italic small-caps bold 16px/2 cursive;
-	color: #a3d2ca;
+	color: #709fb0;
 }
 	
 h1 {
@@ -35,10 +35,26 @@ figcaption {
 	padding: 4px;
 } 
 
-.wrapper {
-    display: flex;
+nav {
+    border-bottom: 2px solid #ffab73;
 }
 
-.wrapper > div {
-    flex: 1;
+.bar ol { 
+	list-style-type: none;
+	padding-left: 0;
+} 
+
+.fig { 
+	display: inline-block;
 }
+
+.fig a::after {
+    display: inline-block;
+    content: '';
+    padding: 0 3px;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+} 
